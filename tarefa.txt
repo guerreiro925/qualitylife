@@ -1,0 +1,8 @@
+rodapé index padrão para todos
+
+menu da index ta certo se vai copiar para outras páginas o menu da index
+
+href do facebook.com/qualidadevidabrasil
+
+copiar o código da imagem do topo da página categorias (col-md-12) img-responsive style[
+

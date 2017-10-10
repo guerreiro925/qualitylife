@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+}
+.header {
+	position: fixed;
+	width: 100%;
+	background: #fff;
+	z-index: 10;
+}
+.header .navbar-brand {
+	font-weight: 900;
+}
+.header .navbar {
+	margin: 0;
+	border: none;
+}
+.page-section {
+	width: 100%;
+	padding: 50px 0;
+	border-bottom: 10px solid #fff;
+}
+.page-section h1 {
+	font-size: 4em;
+	margin: 50px 0;
+}
+.page-section h1 span {
+	font-weight: 200;
+}
+.page-section h2 {
+	font-size: 3em;
+	font-weight: 900;
+	color: #fff;
+	margin: 0 0 30px;
+	text-shadow: 2px 2px 2px #000;
+}
+.page-section p {
+	font-size: 1.2em;
+	font-weight: 200;
+	margin: 0 25% 20px 0;
+}
+.page-section p.lead {
+	font-size: 1.8em;
+}
+.page-section p.caption {
+	color: #fff;
+	padding: 20px;
+	background: url(images/trans_black_25.png);
+	text-shadow: 1px 1px 1px #000;
+}
+.page-section.intro {
+	min-height: 600px;
+}
+.page-section#africa {
+	background: url(../img/africa.jpg) bottom center no-repeat;
+}
+.page-section#antarctica {
+	background: url(../img/antarctica.jpg) bottom center no-repeat;
+}
+.page-section#asia {
+	background: url(../img/asia.jpg) top center no-repeat;
+}
+.page-section#australia {
+	background: url(../img/australia.jpg) top center no-repeat;
+}
+.page-section#europe {
+	background: url(../img/europe.jpg) top center no-repeat;
+}
+.page-section#north-america {
+	background: url(../img/north-america.jpg) top center no-repeat;
+}
+.page-section#south-america {
+	background: url(../img/south-america.jpg) top center no-repeat;
+}
+.btn {
+	font-weight: 200;
+}
+.btn-dark {
+	background: #444;
+	color: #fff;
+}
+.btn-dark:hover {
+	background: #000;
+	color: #fff;
+}
+.back-to-top {
+	display: inline-block;
+	clear: both;
+	background: #fff;
+	color: #333;
+	padding: 0 10px 5px;
+	margin: 20px 0 0;
+	text-shadow: none;
+}
+.back-to-top:hover {
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+}
+hr {border-color: #ddd;}
+
+@media (min-width: 768px) {
+	.header .navbar-brand {
+		padding-left: 0;
+	}
+	.navbar-nav {
+		float: right;
+	}
+}
+@media (max-width: 480px) {
+	.page-section h1 {
+		font-size: 3em;
+	}
+	.page-section h2 {
+		font-size: 2em;
+	}
+	.page-section p {
+		font-size: 1em;
+		margin: 0 0 20px;
+	}
+}
+
+.w3layouts-anamnese {
+    min-height: 670px;
+    background: url(../img/4.png) no-repeat center;
+    background-attachment: fixed;
+    width: 100%;
+    display: block;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+    padding: 70px 0 0 0;
+}
+	.w3layouts-anamnese {
+		min-height: 660px;
+		padding: 55px 0 0 0;
+	}
+	
+	.w3layouts-qv {
+    min-height: 670px;
+    background: url(../img/loguinho.png) no-repeat center;
+	
+    background-attachment: fixed;
+    width: 100%;
+    display: block;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+    padding: 70px 0 0 0;
+}
+	.w3layouts-qv  {
+		min-height: 660px;
+		padding: 55px 0 0 0;
+	}
+
+.w3layouts-team-bg {
+    min-height: 670px;
+    background: url(../img/5.png) no-repeat center;
+    background-attachment: fixed;
+    width: 100%;
+    display: block;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+    padding: 70px 0 0 0;
+}
+	.w3layouts-team-bg {
+		min-height: 660px;
+		padding: 55px 0 0 0;
+	}
+
+img.img-responsive.img-responsive-css{
+	width: 200px;
+	height: 50px;	
+}
+
+@media screen and (max-width: 480px){
+
+	img.img-responsive.img-responsive-css{
+		width: 160px;
+		height: 50px;
+	}
+	
+}
